@@ -10,6 +10,14 @@ disp("enter A (matrix ghotri vared konid!)")
 disp('like [20 1 -1; 1 -10 1; -1 1 10]')
 Amatrix = input ('');
 
+%if matrix ghaleb ghotri nabashad error mide !
+for ii=1:size(Amatrix,1)
+   if abs(Amatrix(ii,ii)) <= abs( sum(Amatrix(ii,:))- Amatrix(ii,ii))
+       error('matrix ghaleb ghotri nist!')
+   end
+end
+
+
 disp("enter b")
 disp('for example [17;13;18]')
 bmatrix = input ('');
@@ -22,8 +30,6 @@ disp("enter X0 matrix")
 disp('same as [0;0;0]')
 %new X(k) store in new column
 Xmatrix = input ('');
-
-%mahdi please add feture to detect non-ghotri matrix for avoid bug
 
 k=1;
 stopCondition=1;
