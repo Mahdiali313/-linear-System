@@ -13,4 +13,14 @@ Xmatrix
 
 جواب : به خاطر اینکه کتاب یا جزوه با تعداد ارقام کمتری داره محاسبه میکنه و دچار خطای گرد شدن شده،اما متلب تا ۹ رقم اعشار رو داره به کار میبره که درصد خطاش بسیار کمتر از انسان هستش.
 
+
+برای دیدن مقادیر 
+ Xmatrix 
+(جواب های مسله)در قسمت 
+ workspace 
+روی
+ Xmatrix
+بزنید تا جدول سمت راست بالا براتون باز بشه!
+
+
 ![Xmatrix table](https://gitlab.com/numericalmethods1/linear-system/-/raw/master/XmatrixTable.png?inline=false)
