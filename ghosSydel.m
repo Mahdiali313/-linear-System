@@ -11,6 +11,13 @@ disp("enter A")
 disp('like [20 1 -1; 1 -10 1; -1 1 10]')
 Amatrix = input ('');
 
+%if matrix ghaleb ghotri nabashad error mide !
+for ii=1:size(Amatrix,1)
+   if abs(Amatrix(ii,ii)) <= abs( sum(Amatrix(ii,:))- Amatrix(ii,ii))
+       error('matrix ghaleb ghotri nist!')
+   end
+end
+
 disp("enter b")
 disp('for example [17;13;18]')
 bmatrix = input ('');
